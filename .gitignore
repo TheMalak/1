@@ -1,2 +1,20 @@
+.DS_Store
+
+.venv/
+venv/
+env/
+
+# Cualquier archivo .env en cualquier carpeta
 .env
 .env.*
+
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+
+data/private/
+
+.vscode/settings.json
+.idea/
